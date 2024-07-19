@@ -49,6 +49,9 @@
             <setting name="PeekBranchNames" serializeAs="String">
                 <value>False</value>
             </setting>
+            <setting name="UpgradeRequired" serializeAs="String">
+                <value>True</value>
+            </setting>
         </GitAppWpf.Properties.Settings>
     </userSettings>
 </configuration>
