@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Jaakon Git.exe" version="1.0.2.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Jaakon Git.exe" version="1.0.2.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Resources\Icons\giticon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -72,22 +72,22 @@
       <dsig:DigestValue>Cc3bEwDpopExdc5SlZDZUCRE1Sfe5Ht5JmQe9x8z3JQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Jaakon Git.deps.json" size="1801">
+  <file name="Jaakon Git.deps.json" size="1854">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Hh7Iqf1hdcPVG+DwR/ghp+Orx4hA7QYRlwGoJ+J/W7Y=</dsig:DigestValue>
+      <dsig:DigestValue>k1df2l0XdU+a8hfqQ5W9STETbvd/St1wsQgin93Rxu4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Jaakon Git.dll" size="1018368">
+  <file name="Jaakon Git.dll" size="1017856">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>yU7WJi7ZvmZ2ef2Jb6FeXtXLT6z1d7sR2XunFNvpCec=</dsig:DigestValue>
+      <dsig:DigestValue>+2DywYG7eziawV6EEI6klnUIl8NIKerprktUO5MMUtc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Jaakon Git.dll.config" size="2469">
@@ -105,7 +105,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>1a97cXmfzq7jhnblNS/HIEd7b9SrcimiXYYocE5rvRk=</dsig:DigestValue>
+      <dsig:DigestValue>uh/oCo9NLTgZ2k4TzZeJ7MLQYxoVXcHd3+tPhojo0B4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Jaakon Git.runtimeconfig.json" size="372">
