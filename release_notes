@@ -1,9 +1,11 @@
-Jaakon Git v1.0.1.6
+Jaakon Git v1.0.2.0
 
-Improvements to auto-updater
- - Less intrusive update notification
- - Review release notes before and after update
+New features and improvements
+- Reword and squash commits without starting interactive rebase
+- Peek first stash entry by hovering on Pop Stash button
+- Commit message box now stretches when writing a longer message
+- Better error reporting when applying stash entries
 
 Bug fixes
- - Some buttons would become permanently disabled if the operation was cancelled
- - Reverting and cherry-picking merge commits did not work
+- Many unresponsiveness issues fixed
+- Crashes from invalid user input fixed
