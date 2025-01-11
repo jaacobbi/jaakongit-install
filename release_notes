@@ -1,11 +1,37 @@
-Jaakon Git v1.0.2.0
+Jaakon Git v1.0.3.0
 
-New features and improvements
-- Reword and squash commits without starting interactive rebase
-- Peek first stash entry by hovering on Pop Stash button
-- Commit message box now stretches when writing a longer message
-- Better error reporting when applying stash entries
+New Features
+
+1. New Powerful Search
+  - Click on the magnifier icon in the top-right corner or hit Ctrl+, and start typing
+  - Search for commits, branches, files and authors
+  - Results are suggested as you type
+  - Hold Ctrl for alternative commands. For example, open any file in a repository by typing its name and hitting Ctrl+Enter once it is suggested.
+
+2. Git Blame
+  - To annotate a file with commits that introduced any change,
+    1. Make the file visible in the diff area e.g. by searching for it,
+    2. Right-click in the diff area and select "Blame (annotate)".
+  - Navigate to the commit that modified a line by clicking on the annotation column on that line
+  - Even deleted lines are annotated, making it effortless to find the actual commit that intoduced the change, past any formatting changes.
+
+3. Custom text & rebase todo editors
+  - New simple and user-friendly tools to edit commit messages and rebase todo sequences e.g. while rebasing
+  - Can be disabled in the Settings in the unlikely event that you have better editors set in git config
+
+4. Navigation
+  - Navigate between previous views with Alt+Left/Right or the mouse thumb buttons
+  - Might have some limitations, still evaluating if this is a useful feature
+
+
+Improvements
+- Improved color palette for better contrast
+- Accessible colors can now be enabled in Settings
+- Absolute/relative date representation can now be changed in Settings
+- Faster browsing of stashes
+- Commit log loads faster
 
 Bug fixes
-- Many unresponsiveness issues fixed
-- Crashes from invalid user input fixed
+- Fixed reset of staged deleted/renamed files
+- Fixed revert of renamed files
+- Fixed "Show entire file" not working for pure renames
