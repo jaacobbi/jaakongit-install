@@ -1,3 +1,7 @@
+Jaakon Git v1.0.3.1
+
+- Fixed bug where opening git config with the new simple text editor could erase the whole contents of config.
+
 Jaakon Git v1.0.3.0
 
 New Features
