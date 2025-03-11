@@ -1,14 +1,17 @@
-Jaakon Git v1.0.3.2
+Jaakon Git v1.0.4.0
 
-Improvements
-- Amended commit info with "Merged in" item. Clicking it takes you to the commit
-  where the selected commit was merged to main branch.
-- In search, suggested unreachable commits are now colored red as in commit log. 
+Syntax highlighting
+- A small bunch of programming languages supported
+- A default highlight scheme that works reasonably well with any unsupported
+  language
+- User can define their own highlight schemes
+- Can be disabled in Settings
 
+Auto-refresh
+- Working tree status (staging area) refreshed automatically when application
+  is brought to foreground
+- Can be disabled in Settings
 
 Bug fixes
-- Crash when searching with an ambiguos commit hash
-- Resetting files with merge conflicts did not work with all reset buttons
-- Crash when resetting staged files that have unstaged changes
-- Occasional crash after push
-- In rebase-todo editor, fixup context menu item had wrong command mapping
+- Crash when editing diff of a file that no longer exists
+
