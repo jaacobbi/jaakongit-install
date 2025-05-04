@@ -1,14 +1,6 @@
-Jaakon Git v1.0.5.0
+Jaakon Git v1.0.6.0
 
-Improvements
-- Checkout branches directly from commit log
-- Files where conflicts have been solved are now staged automatically, even
-  if edited outside Jaakon Git
-- More accurate syntax highlighting
-
-Bug fixes
-- Fixed some recent commits not always showing up in search results
-- Fixed wild scroll behaviour when scrolling with touchpad
-
-
+- Toolbar in diff view for easier access to viewing options
+- Some input fields now autocomplete names and paths
+- Minor bug fixes
 
