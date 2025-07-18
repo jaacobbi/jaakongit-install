@@ -1,13 +1,4 @@
-Jaakon Git v1.0.7.0
+Jaakon Git v1.0.7.1
 
-New Feature: Grep Tool
- - Accessible thorugh the new button in the top bar
- - Search and replace any string or pattern in the repository
- - Git integration:
-   - grep any revision without checkout
-   - ignore gitignored files by default
-   - view file history for a matching file
-
-Bug fixes:
- - Fixed commit log sometimes skipping first commits in the log
- - Fixed crash when blaming a path that contains whitespace
+- Fixed problems in path wildcards in grep tool
+- Nicer error message if diff parsing fails
