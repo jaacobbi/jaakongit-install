@@ -1,4 +1,7 @@
-Jaakon Git v1.0.7.1
+Jaakon Git v1.0.7.2
 
-- Fixed problems in path wildcards in grep tool
-- Nicer error message if diff parsing fails
+- New "Preserve case" option for Replace feature in Grep Tool
+- Improved keyboard navigation in Staging area
+- Fixed unintended dragging of commits in rebase sequence editor
+- Skip very long lines from syntax highlighting to avoid freezing
+- Prevented crash after creating a branch outside the client
